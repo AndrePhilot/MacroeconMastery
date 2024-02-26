@@ -1,16 +1,16 @@
 import os
 
 from flask import Flask, render_template
-from flask_debugtoolbar import DebugToolbarExtension
 from jinja2.exceptions import TemplateNotFound
 
-app = Flask(__name__)
+def create_app():
+    app = Flask(__name__)
 
-app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
+    # Retrieve the secret key from an environment variable set on Render
+    app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
 
-# Retrieve the secret key from an environment variable set on Render
-app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
-debug = DebugToolbarExtension(app)
+    return app
+
 
 @app.route('/')
 def show_homepage():
