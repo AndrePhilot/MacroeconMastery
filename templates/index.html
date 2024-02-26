@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col" id="about">
+            <div class="card bg-light mb-3">
+                <div class="card-body p-1">
+                    <img src="static/images/demo.gif" id="demo-gif">
+                    <div class="paragraphs m-3">
+                        <p>MacroMastery is primarily designed to assist AP Macroeconomics students in practicing Free-Response Questions and receiving immediate feedback. To engage with the platform, navigate to 'Chatbots' and select 'FRQ Quizzer' to activate the chatbot. Interact with it by typing or utilizing the microphone button. You can start by saying 'Hi!'. The chatbot will then guide you through the process. But, in essence, these are the steps:
+                            <ol>
+                                <li>You select a topic by its corresponding number. If you've forgotten the number associated with a topic, you can access the list under 'Course Overview'.</li>
+                                <li>Subsequently, the chatbot will present a random question from our database.</li>
+                                <li>After providing your answer, the chatbot will analyze it to determine its accuracy. The chatbot is not failproof, and this is why it'll also provide you with the official answer so you're convinced why your response is correct or not.</li>
+                                <li>The chatbot will ask you if you'd like to continue practicing and the process starts all over again.</li>
+                            </ol>
+                        <p>Currently, our chatbot does not administer a short or long FRQs. Instead, it provides a single FRQ question on the chosen topic. We're working to offer you a more realistic test mode in the future. Additionally, we are expanding our database to include over 500 FRQs, although initial versions may offer a limited number of questions. We appreciate your patience as we continue to improve the platform.</p>
+                        <p>In addition to free-response practice, MacroMastery offers other functionalities. You can interact with the 'Definitions and Scheduler' chatbot to define relevant course concepts. Navigate to 'Chatbots' and select 'Definitions and Scheduler' to activate the chatbot. Interact with it by typing or utilizing the microphone button. You can start by saying 'Hi!'. The chatbot will then guide you through the process. But, in essence, these are the steps:</p>
+                        <ol>
+                            <li>Ask a question about a particular concept or, if you're one of Andre's students, express your desire to schedule a retake exam or academic support slot.</li>
+                            <li>The chatbot will present you with the official term definition if requested. If you want further information, feel free to ask for another definition, and the process will restart. Alternatively, the chatbot will offer appointment options (time and/or date).</li>
+                            <li>After selecting the appointment options, and if the slot is available, you'll receive a confirmation of your appointment. The teacher will be notified accordingly.</li>
+                        </ol>
+                        <p>If you wish to contribute to MacroMastery, visit our <a href="/about">About & Contact</a> section for more information.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

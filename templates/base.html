@@ -19,14 +19,14 @@
       <div class="collapse navbar-collapse" id="navbarColor03">
         <ul class="navbar-nav me-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Chatbots</a>
+            <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chatbots</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/frq-quizzer">FRQ Quizzer</a>
               <a class="dropdown-item" href="/def-sched">Definitions and Scheduler</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="/course-review">Course Review</a>
+            <a class="nav-link active" href="/course-review">Course Overview</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="/about">About & Contact</a>
@@ -39,6 +39,15 @@
     {% block content %}
     {% endblock %}
   </div>
-  <a href="https://andrephilot.github.io/portfolio/" target="_blank"><span class="footer">Developed by Andre Philot<img id="dev-logo" src="static/images/logo.jpg" alt="Developer's logo"></span></a>
+  <footer id="footer">
+      <div class="row">
+        <div class="col">
+          <p id="disclaimer">*Advanced Placement (AP®) is a registered trademark of the College Board which was not involved in the production of and does not endorse this website.</p>
+        </div>
+        <div class="col" id="col-right">
+          <a href="https://andrephilot.github.io/portfolio/" target="_blank"><span class="footer">Developed by Andre Philot<img id="dev-logo" src="static/images/logo.jpg" alt="Developer's logo"></span></a>
+        </div>
+      </div>
+  </footer>
 </body>
 </html>
