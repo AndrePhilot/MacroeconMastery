@@ -1,10 +1,6 @@
 # MacroMastery
 
-[MacroMastery](https://macromastery.onrender.com/) is a web application designed to assist AP Macroeconomics students in practicing Free-Response Questions (FRQs) and receiving immediate feedback.
-
-## Purpose
-
-The primary goal of MacroMastery is to provide a platform for AP Macroeconomics students to practice FRQs, as there is a lack of resources specifically tailored for this purpose. The website offers immediate feedback to help students improve their understanding of course concepts.
+[MacroMastery](https://macromastery.onrender.com/) is a web application designed to assist AP Macroeconomics students in practicing Free-Response Questions (FRQs) and receiving immediate feedback, as there is a lack of resources specifically tailored for this purpose.
 
 ## User Flow
 
@@ -27,8 +23,8 @@ MacroMastery is a full-stack application:
 
 ## About the Developer
 
-Hi, I'm Andre Philot, an international teacher and developer. I created MacroMastery to provide students with a platform to practice free-response questions and receive immediate feedback.
+Hi, I'm [Andre Philot](https://andrephilot.github.io/portfolio/), an international teacher and developer.
 
 ## Support MacroMastery
 
-MacroMastery is kept accessible to everyone for free. However, there are hosting and maintenance costs associated with the website and database. If you'd like to support MacroMastery financially, you can donate any amount to the $AndrePhilot Cash App account. For inquiries, feel free to contact me. Don't forget to click on the 'star' to get updates on this project and help the developer.
+MacroMastery is kept accessible to everyone for free. However, there are hosting and maintenance costs associated with the website and database. If you'd like to support MacroMastery financially, you can donate any amount to the $AndrePhilot Cash App account. For inquiries, feel free to contact me. Don't forget to click on the 'star' to get updates on this project and help the project grow.
