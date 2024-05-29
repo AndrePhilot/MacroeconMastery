@@ -115,3 +115,22 @@ body {
     margin-left: 10px;
     max-width: 40vh;
 }
+
+.fa-solid {
+    font-size: 8vw;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+    overflow-y: auto;
+    font-size: 16px;
+}
+
+.product button {
+    width: 80%;
+}

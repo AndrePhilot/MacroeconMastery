@@ -45,3 +45,9 @@ def show_about():
     """Renders the about page."""
 
     return render_template('about.html')
+
+@main.route('/products')
+def serve_react_app():
+    """"Renders the products page."""
+
+    return render_template('products.html')
