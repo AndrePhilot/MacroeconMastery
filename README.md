@@ -1,8 +1,8 @@
 # MacroMastery
 
-[MacroMastery](https://macromastery.onrender.com/) is a web application designed to assist AP Macroeconomics students in practicing Free-Response Questions (FRQs) and receiving immediate feedback, as there is a lack of resources specifically tailored for this purpose.
+[MacroMastery](http://macromastery-env.eba-umapubbq.us-east-1.elasticbeanstalk.com/) is a web application designed to assist AP Macroeconomics students in practicing Free-Response Questions (FRQs) and receiving immediate feedback, as there is a lack of resources specifically tailored for this purpose.
 
-## User Flow
+## Chatbot User Flow
 
 To engage with the platform:
 1. Navigate to 'Chatbots' and select 'FRQ Quizzer' to activate the chatbot.
@@ -11,6 +11,13 @@ To engage with the platform:
 4. The chatbot will present a random question from the database based on your selected topic.
 5. Provide your answer, and the chatbot will analyze it to determine its accuracy. It will also provide the official answer for reference.
 6. The chatbot will ask if you'd like to continue practicing, and the process repeats.
+   
+## Shopping User Flow
+
+To engage with our products:
+1. Navigate to 'Products' and select between our selection.
+2. You'll be directed to a Stripe payment page. Add your payment details and option.
+3. After the payment is successful, you'll either receive a link to your product or a Google Calendar page where you can book your one-on-one session.
 
 ## Technology Stack
 
@@ -18,7 +25,7 @@ MacroMastery is a full-stack application:
 - Database: BigQuery
 - Web Hooks: Node.js
 - Backend: Python with Flask
-- Deployment: Gunicorn for easier deployment on Render
+- Hosting: AWS Elastic Beanstalk, AWS CodePipeline, GitHub
 - Frontend: JavaScript (Bootstrap), HTML, CSS
 
 ## About the Developer
