@@ -1,6 +1,6 @@
-# MacroMastery
+# MacroeconMastery
 
-[MacroMastery](http://macromastery-env.eba-umapubbq.us-east-1.elasticbeanstalk.com/) is a web application designed to assist AP Macroeconomics students in practicing Free-Response Questions (FRQs) and receiving immediate feedback, as there is a lack of resources specifically tailored for this purpose.
+[MacroeconMastery](https://macroeconmastery.com/) is a web application designed to assist AP Macroeconomics students in practicing Free-Response Questions (FRQs) and receiving immediate feedback, as there is a lack of resources specifically tailored for this purpose.
 
 ## Chatbot User Flow
 
@@ -21,17 +21,17 @@ To engage with our products:
 
 ## Technology Stack
 
-MacroMastery is a full-stack application:
+MacroeconMastery is a full-stack application:
 - Database: BigQuery
 - Web Hooks: Node.js
 - Backend: Python with Flask
-- Hosting: AWS Elastic Beanstalk, AWS CodePipeline, GitHub
+- Hosting: AWS Elastic Beanstalk, Namecheap, Route 53, Certificate Manager, AWS CodePipeline, GitHub
 - Frontend: JavaScript (Bootstrap), HTML, CSS
 
 ## About the Developer
 
 Hi, I'm [Andre Philot](https://andrephilot.github.io/portfolio/), an international teacher and developer.
 
-## Support MacroMastery
+## Support MacroeconMastery
 
-MacroMastery is kept accessible to everyone for free. However, there are hosting and maintenance costs associated with the website and database. If you'd like to support MacroMastery financially, you can donate any amount to the $AndrePhilot Cash App account. For inquiries, feel free to contact me. Don't forget to click on the 'star' to get updates on this project and help the project grow.
+MacroeconMastery is kept accessible to everyone for free. However, there are hosting and maintenance costs associated with the website and database. If you'd like to support MacroeconMastery financially, you can donate any amount to the $AndrePhilot Cash App account. For inquiries, feel free to contact me. Don't forget to click on the 'star' to get updates on this project and help the project grow.
