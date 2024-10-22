@@ -51,3 +51,58 @@
     </div>
 </div>
 {% endblock %}
+{% extends 'base.html' %}
+{% block content %}
+<div class="d-flex justify-content-center">
+    <div class="container m-3">
+        <div class="row">
+            <div class="col" id="about">
+                <div class="card bg-light mb-3">
+                    <div class="card-body p-1">
+                        <div class="paragraphs m-3">
+                            <p>Question: What is the nominal interest rate? What is a fixed interest rate?</p>
+                            <p>Answer: A nominal interest rate is the rate of interest paid for a loan, unadjusted for inflation. For example: If the bank charges a 7% interest rate, the nominal interest rate is 7%.</p>
+                            <br>
+                            <p>Question: What is the real interest rate?</p>
+                            <p>Answer: The nominal interest rate adjusted for inflation. The real interest rate reflects the purchasing power of earned interest after adjusting for inflation, indicating the true return on investment. The formula is: Real Interest Rate = Nominal Interest Rate - Inflation Rate. For example: If the bank charges a 7% interest rate and it turns out that the inflation rate was 3%, the real interest rate is 4%.</p>
+                            <br>
+                            <p>Question: What is a flexible interest rate? What is a variable interest rate?</p>
+                            <p>Answer: An interest rate that fluctuates with inflation. For example: If a bank charges 4% flexible interest rate a year and after a year the inflation is 6%, the nominal interest rate of the loan is 10% and the real interest rate is 4%, the same as the flexible interest rate charged.</p>
+                            <br>
+                            <p>Question: How to calculate nominal interest rates?</p>
+                            <p>Answer: Use the Fisher equation: Nominal Interest Rate = Real Interest Rate + Inflation Rate</p>
+                            <br>
+                            <p>Question: How to calculate real interest rates?</p>
+                            <p>Answer: Use the Fisher equation: Real Interest Rate = Nominal Interest Rate - Inflation Rate</p>
+                            <br>
+                            <p>Question: Who wins from unexpected inflation?</p>
+                            <p>Answer: The borrowers win because they're repaying the loan's installments with money that has less value than they expected.</p>
+                            <br>
+                            <p>Question: Who loses from unexpected inflation?</p>
+                            <p>Answer: The bank loses because they're being paid with money that has less value than they expected.</p>
+                            <br>
+                            <p>Question: How do banks decide which nominal interest rate to charge for loans?</p>
+                            <p>Answer: They use the modified Fisher equation for expected inflation and real interest rates: Nominal Interest Rate = Expected Real Interest Rate + Expected Inflation. For example, if a bank expects 5% return on their loans and 5% inflation in the same period, they will charge 10% nominal interest rates for the same period.</p>
+                            <br>
+                            <p>Question: What is the Fisher Effect?</p>
+                            <p>Answer: The Fisher Effect posits that an increase in expected inflation leads to a corresponding rise in the nominal interest rate, while the expected real interest rate remains unchanged. For instance, an expected inflation rate of 3% might prompt an increase in the nominal interest rate from 5% to 8%.</p>
+                            <br>
+                            <p>Question: What is an interest rate?</p>
+                            <p>Answer: If not specified, the interest rate being referred to is the nominal interest rate.</p>
+                            <br>
+                            <p>Question: In what case is the real interest rate negative?</p>
+                            <p>Answer: When the inflation rate is higher than the nominal interest rate. For example: The nominal interest rate was 5% and inflation rate was 10%, the real interest rate will be -5% because 5% = RIR + 10%.</p>
+                            <br>
+                            <p>Question: In what scenario is the real interest rate higher than the nominal interest rate?</p>
+                            <p>Answer: When inflation is negative (deflation). For example: The bank charges 10% nominal interest rate and the inflation for the period was -5%, then real interest rate will be 15% because 10% = RiR - 5%.</p>
+                            <br>
+                            <p>Question: Why can't nominal interest rates be negative?</p>
+                            <p>Answer: Because if interest rates are negative, the bank will be paying you to take a loan and, hence, they will have a negative return.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -28,13 +28,16 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarColor03">
         <ul class="navbar-nav me-auto">
-          <li class="nav-item dropdown">
+          <li class="nav-item">
+            <a class="nav-link active" href="/frq-quizzer">FRQ Quizzer</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Chatbots</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/frq-quizzer">FRQ Quizzer</a>
               <a class="dropdown-item" href="/def-sched">Definitions and Scheduler</a>
             </div>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link active" href="/course-review">Course Overview</a>
           </li>
@@ -48,6 +51,8 @@
       </div>
     </div>
   </nav>
+  {% block alert %}
+  {% endblock %}
   <div class="container">
     {% block content %}
     {% endblock %}
@@ -62,5 +67,7 @@
         </div>
       </div>
   </footer>
+{% block script %}
+{% endblock %}
 </body>
 </html>
