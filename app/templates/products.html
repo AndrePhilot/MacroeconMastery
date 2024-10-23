@@ -1,51 +1,46 @@
 {% extends 'base.html' %}
 {% block content %}
-<div class="d-flex justify-content-center">
-    <div class="container m-3">
-        <div class="row">
-            <div class="col-4">
-                <div class="card bg-light mb-3">
-                    <div class="card-body p-1">
-                        <div class="product">
-                            <i class="fa-solid fa-book-open"></i>
-                            <p><b>Complete Course Material</b></p>
-                            <p>For both students and teachers that are interested in having a complete and thorough material, covering all required definitions, explanations and loaded with practice assignments.</p>
-                            <p>$99</p>
-                            <a href="https://buy.stripe.com/eVaeYTbdMaHZ8Pm4gg" target="_blank">
-                                <button type="button" class="btn btn-primary">Buy</button>
-                            </a>                          
-                        </div>
-                    </div>
+<div class="container my-5" id="product-container">
+    <div class="row justify-content-center">
+        <!-- Product 1 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card product-card">
+                <div class="card-body text-center">
+                    <i class="fa-solid fa-book-open fa-3x mb-3"></i>
+                    <h5 class="card-title"><b>Complete Course Material</b></h5>
+                    <p class="card-text">For both students and teachers that are interested in having a complete and thorough material, covering all required definitions, explanations and loaded with practice assignments.</p>
+                    <p class="price"><b>$99</b></p>
+                    <a href="https://buy.stripe.com/eVaeYTbdMaHZ8Pm4gg" target="_blank">
+                        <button type="button" class="btn btn-primary">Buy</button>
+                    </a>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card bg-light mb-3">
-                    <div class="card-body p-1">
-                        <div class="product">
-                            <i class="fa-solid fa-laptop"></i>
-                            <p><b>1-hour one-on-one session</b></p>
-                            <p>Tutoring for students and mentoring for teachers that are in need of an experienced expert on the field.</p>
-                            <p>$40</p>
-                            <a href="https://buy.stripe.com/fZe03Z5Tsg2jd5CcMN" target="_blank">
-                                <button type="button" class="btn btn-primary">Buy</button>
-                            </a>
-                        </div>
-                    </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card product-card">
+                <div class="card-body text-center">
+                    <i class="fa-solid fa-laptop fa-3x mb-3"></i>
+                    <h5 class="card-title"><b>1-hour one-on-one session</b></h5>
+                    <p class="card-text">Tutoring for students and mentoring for teachers that are in need of an experienced expert on the field.</p>
+                    <p class="price"><b>$40</b></p>
+                    <a href="https://buy.stripe.com/fZe03Z5Tsg2jd5CcMN" target="_blank">
+                        <button type="button" class="btn btn-primary">Buy</button>
+                    </a>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card bg-light mb-3">
-                    <div class="card-body p-1">
-                        <div class="product">
-                            <i class="fa-solid fa-laptop"></i>
-                            <p><b>Three 1-hour one-on-one sessions</b></p>
-                            <p>Tutoring for students and mentoring for teachers that are in need of an experienced expert on the field.</p>
-                            <p>$99</p>
-                            <a href="https://buy.stripe.com/eVa9Ezfu22bt3v26oq" target="_blank">
-                                <button type="button" class="btn btn-primary">Buy</button>
-                            </a>
-                        </div>
-                    </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card product-card">
+                <div class="card-body text-center">
+                    <i class="fa-solid fa-laptop fa-3x mb-3"></i>
+                    <h5 class="card-title"><b>Three 1-hour one-on-one sessions</b></h5>
+                    <p class="card-text">Tutoring for students and mentoring for teachers that are in need of an experienced expert on the field.</p>
+                    <p class="price"><b>$99</b></p>
+                    <a href="https://buy.stripe.com/eVa9Ezfu22bt3v26oq" target="_blank">
+                        <button type="button" class="btn btn-primary">Buy</button>
+                    </a>
                 </div>
             </div>
         </div>
