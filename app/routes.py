@@ -16,11 +16,11 @@ def show_frq_quizzer():
     return render_template('frq_quizzer.html')
 
 
-@main.route('/def-sched')
-def show_def_sched():
-    """Renders the page with the Definitions and Scheduler chatbot."""
+# @main.route('/def-sched')
+# def show_def_sched():
+#     """Renders the page with the Definitions and Scheduler chatbot."""
 
-    return render_template('def_sched.html')
+#     return render_template('def_sched.html')
 
 @main.route('/course-review')
 def show_course_review():

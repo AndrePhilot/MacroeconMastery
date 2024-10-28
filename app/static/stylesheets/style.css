@@ -192,28 +192,18 @@ body {
 
 div.btn-group-vertical {
     position: fixed;
-    right: 0;
+    left: 0;
     top: 50%;
     transform: translateY(-50%);
     box-shadow: none;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     transition: transform 0.3s ease;
 }
 
-@media (max-width: 626px) {
-    div.btn-group-vertical {
-        transform: translateY(-50%) translateX(56%);
-    }
-
-    div.btn-group-vertical:hover {
-        transform: translateY(-50%) translateX(0);
-    }
-}
-
 .btn-group-vertical .btn:active, .btn-group-vertical .btn:focus, .btn-group-vertical .btn:hover {
-    border-top-right-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
 }
 
 #side-button {

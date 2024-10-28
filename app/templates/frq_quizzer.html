@@ -1,13 +1,36 @@
 {% extends 'base.html' %}
+{% block styles %}
+<style>
+    df-messenger {
+     --df-messenger-button-titlebar-color: #0C529C;
+     --df-messenger-chat-background-color: rgb(240, 245, 250);
+     --df-messenger-font-color: #56679F;
+     --df-messenger-input-font-color: #56679F;
+     --df-messenger-input-placeholder-font-color: #56679F;
+     --df-messenger-send-icon: #0C529C;
+     --df-messenger-user-message: #e6e9f5;
+    }
+  </style>
+{% endblock %}
 {% block alert %}
-<div class="alert alert-dismissible alert-light m-3">
+<!-- <div class="alert alert-dismissible alert-light m-3">
     <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
     Say <strong>'Hi!'</strong> to the bot to get started <strong>⤵</strong>
-</div>
+</div> -->
 {% endblock %}
 {% block content %}
-        <div class="responsive-iframe-container">
+        <!-- <div class="responsive-iframe-container">
             <iframe id="myIframe" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/4fef25e8-cd45-42c9-ad2b-79567b8ec8d6"></iframe>
+        </div> -->
+        <div id="bot">
+            <df-messenger
+                chat-icon="https:&#x2F;&#x2F;i.ibb.co&#x2F;SvbbF6d&#x2F;Screenshot-2024-02-22-at-10-43-11-AM.png"
+                intent="WELCOME"
+                chat-title="MacroeconMastery_FRQ_Quizzer"
+                agent-id="4fef25e8-cd45-42c9-ad2b-79567b8ec8d6"
+                language-code="en"
+                expand="true">
+            </df-messenger>
         </div>
         <div class="btn-group-vertical">
             <button id="side-button" type="button" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUnit1" aria-controls="offcanvasUnit1">1<sup>st</sup> Unit</button>
@@ -136,4 +159,5 @@
         }, 2000);
     });
 </script>   
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 {% endblock %}

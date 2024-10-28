@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  {% block styles %}
+  {% endblock %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MacroeconMastery</title>
@@ -57,16 +59,6 @@
     {% block content %}
     {% endblock %}
   </div>
-  <footer id="footer">
-      <div class="row">
-        <div class="col">
-          <p id="disclaimer">*Advanced Placement (AP®) is a registered trademark of the College Board which was not involved in the production of and does not endorse this website.</p>
-        </div>
-        <div class="col" id="col-right">
-          <a href="https://andrephilot.github.io/portfolio/" target="_blank"><span class="footer">Developed by Andre Philot<img id="dev-logo" src="static/images/logo.jpg" alt="Developer's logo"></span></a>
-        </div>
-      </div>
-  </footer>
 {% block script %}
 {% endblock %}
 </body>
