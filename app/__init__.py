@@ -20,7 +20,7 @@ def create_app():
     # Add HSTS headers to enforce HTTPS
     @app.after_request
     def add_security_headers(response):
-        response.headers['Strict-Transport-Security'] = 'max-age=31536000; includeSubDomains'
+        response.headers['Strict-Transport-Security'] = 'max-age=31536000; includeSubDomains; preload'
         return response
 
     app.register_blueprint(main)
